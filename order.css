@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #34495e;
+  
+}
+
+.box {
+  width: 600px;
+  
+  position: relative;
+  top: 150px;
+  right: 100px;
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.box1 {
+  border: 2px solid black;
+  
+  width: 200px;
+  text-align: center;
+  height: 400px;
+  display: grid;
+  justify-content: stretch;
+  font-size: 17px;
+  color: white;
+  background: #191919;
+  border: 2px solid #3498db;
+}
+.box2 {
+  border: 2px solid black;
+  width: 200px;
+  text-align: center;
+  height: 400px;
+  display: grid;
+  justify-content: stretch;
+  font-size: 17px;
+  color: white;
+  background: #191919;
+  border: 2px solid #3498db;
+}
+.box3 {
+  border: 2px solid black;
+  width: 200px;
+  text-align: center;
+  height: 400px;
+  display: grid;
+  justify-content: stretch;
+  font-size: 17px;
+  color: white;
+  background: #191919;
+  border: 2px solid #3498db;
+}
+.box4 {
+  border: 2px solid black;
+  width: 200px;
+  text-align: center;
+  height: 400px;
+  display: grid;
+  justify-content: stretch;
+  font-size: 17px;
+  color: white;
+  background: #191919;
+  border: 2px solid #3498db;
+}
+ .bu {
+   position: relative;
+   left: 50px;
+  border: 2px solid #2ecc71;
+  width: 80px;
+  align-self: center;
+  height: 28px;
+  background: none;
+  color: white;
+}
+
+.bu > button {
+  border: 2px solid #2ecc71;
+  width: 80px;
+  align-self: center;
+  height: 28px;
+  background: none;
+  color: white;
+}
+.bu:hover {
+  background-color: #2ecc71;
+}
+.box1:hover,
+.box2:hover,
+.box3:hover,
+.box4:hover {
+  border: 2px solid black;
+  width: 220px;
+  text-align: center;
+  height: 450px;
+  display: grid;
+  justify-content: stretch;
+  font-size: 17px;
+  color: white;
+  background: #191919;
+  border: 2px solid #3498db;
+  transition: 0.25s;
+}
